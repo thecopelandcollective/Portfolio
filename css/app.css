@@ -1,0 +1,261 @@
+body {
+	background: #f8f8f8;
+	color: #454545;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1.main-heading {
+	font-family: 'Poppins', sans-serif;
+	font-size: 3em;
+	line-height: 1em;
+	font-weight: 400;
+}
+
+h2.sub-heading {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.6em;
+	line-height: 1.5em;
+	font-weight: 200;
+}
+
+h3.tertiary-heading {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 2em;
+	line-height: 1.7em;
+	font-weight: 400;
+}
+
+p.body-text {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	font-weight: 200;
+}
+
+p.caption {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 0.8em;
+	line-height: 1.4em;
+	font-weight: 600;
+	text-align: center;
+	padding: 5px 0 15px;
+}
+
+.nav-bar {
+	height: 45px;
+	text-align: center;
+	background: #f8f8f8;
+	padding: 10px 0;
+}
+
+.nav-bar ul {
+	list-style: none;
+	text-align: center;
+}
+.nav-bar ul li {
+	display: inline;
+	color: #2b9cb3;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.nav-bar ul li a {
+	color: #2b9cb3;
+}
+
+.nav-bar ul li a:hover {
+	color: #e05b26;
+}
+img.centered {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+.breathing-room {
+	padding: 10px 0;
+}
+
+.orange {
+	color: #e05b26;
+}
+.orange-bg {
+	background-image: linear-gradient(to right, #e05b26, #eb7242);
+}
+.blue {
+	color: #2b9cb3;
+}
+.blue-bg {
+	background-image: url(../images/wire-frames.png);
+	background-size: cover;
+
+}
+.grey {
+	color: #454545;
+}
+.white {
+	color: #ffffff;
+}
+.txt-shadow {
+	text-shadow: 2px 2px 2px white;
+}
+
+/*.portfolio span {
+	position: relative;
+	bottom: -20px;
+	left: 0;
+	z-index: 1000;
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 22px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 1;
+}*/
+
+figure {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: visible;
+}
+/*figure:hover+span {
+	bottom: 175px;
+	opacity: 1;
+	z-index: 1000;
+}*/
+
+.portfolio {
+	margin-bottom: 15px !important;
+}
+
+.portfolio figure {
+	background: transparent;
+}
+.portfolio figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.portfolio figure:hover img {
+	opacity: .3;
+}
+
+.footer {
+	background: #2b9cb3;
+	margin: 0px auto 0;
+	bottom: 0;
+	position: relative;
+	padding: 15px;
+}
+
+.social {
+	display: inline;
+}
+
+.social .social-icon {
+	color: #fff;
+	padding: 0 5px;
+}
+
+.social .social-icon:hover {
+	color: #454545;
+	transition: all 0.2s ease-in-out;
+}
+
+@media (min-width:768px) {
+	.mobile-break {
+		display: none;
+	}
+}
+
+.details {
+	padding: 15px 20px 15px 0;
+}
+
+a.text-link {
+	color: #2b9cb3;
+}
+
+a.text-link:hover {
+	color: #e05b26;
+}
+
+.reveal-white-space {
+	padding: 25px 25px 15px;
+}
+
+.primary-button {
+	border: 1px solid #2b9cb3;
+	padding: 10px 20px;
+	color: #2b9cb3;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.primary-button:hover,
+.primary-button:active,
+.primary-button:focus {
+	border: 1px solid #2b9cb3;
+	background: #2b9cb3;
+	transition: all 0.1s ease-in-out;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.grey-button {
+	border: 2px solid #454545;
+	padding: 10px 20px;
+	color: #454545;
+	text-transform: uppercase;
+	cursor: pointer;
+	background: transparent;
+}
+
+.grey-button:hover,
+.grey-button:active,
+.grey-button:focus {
+	border: 2px solid #454545;
+	background: #454545;
+	transition: all 0.1s ease-in-out;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.top-pad {
+	padding-top: 10px;
+}
+.top-pad-lg {
+	padding-top: 20px;
+}
+.top-pad-xl {
+	padding-top: 40px;
+}
+
+.centered {
+	margin: 0 auto;
+}
+
+img.shadow {
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+.form-error {
+	color: #b6b6b6;
+	font-weight: bold;
+}
+
+.is-invalid-input:not(:focus) {
+    background-color: #eeeeee;
+    border: 2px solid #2b9cb3;
+}
+
+// .success {
+// 	display: block;
+// }
