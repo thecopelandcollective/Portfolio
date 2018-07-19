@@ -142,9 +142,13 @@ figure {
 	opacity: 1;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+	border-radius: 15px;
 }
 .portfolio figure:hover img {
-	opacity: .3;
+	/*opacity: .3;*/
+	background: rgba(0,0,0,0.4);
+    border-radius: 15% 15px 15px 15px;
+    box-shadow: 2px 5px 40px rgba(0,0,0,0.4);
 }
 
 .footer {
@@ -193,6 +197,7 @@ a.text-link:hover {
 
 .primary-button {
 	border: 1px solid #2b9cb3;
+	border-radius: 15px;
 	padding: 10px 20px;
 	color: #2b9cb3;
 	text-transform: uppercase;
@@ -211,6 +216,7 @@ a.text-link:hover {
 
 .grey-button {
 	border: 2px solid #454545;
+	border-radius: 10px;
 	padding: 10px 20px;
 	color: #454545;
 	text-transform: uppercase;

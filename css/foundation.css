@@ -2338,7 +2338,7 @@ textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  height: 2.4375rem;
+  height: 3rem;
   padding: 0.5rem;
   border: 1px solid #cacaca;
   margin: 0 0 1rem;
@@ -2347,7 +2347,7 @@ textarea {
   color: #0a0a0a;
   background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-  border-radius: 0;
+  border-radius: 10px;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
   -webkit-appearance: none;
   -moz-appearance: none; }
@@ -2501,7 +2501,7 @@ legend {
     margin-left: -0.1875rem; }
 
 select {
-  height: 2.4375rem;
+  height: 3rem;
   padding: 0.5rem;
   border: 1px solid #cacaca;
   margin: 0 0 1rem;
@@ -2510,7 +2510,7 @@ select {
   line-height: normal;
   color: #0a0a0a;
   background-color: #fefefe;
-  border-radius: 0;
+  border-radius: 10px;
   -webkit-appearance: none;
   -moz-appearance: none;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="32" height="24" viewBox="0 0 32 24"><polygon points="0,0 32,0 16,24" style="fill: rgb%28138, 138, 138%29"></polygon></svg>');
@@ -2784,16 +2784,29 @@ select {
     padding-left: 3rem; }
 
 .close-button {
-  position: absolute;
+  position: fixed;
   color: #8a8a8a;
   right: 1rem;
   top: 0.5rem;
-  font-size: 2em;
+  font-size: 1em;
   line-height: 1;
   cursor: pointer; }
   [data-whatinput='mouse'] .close-button {
     outline: 0; }
   .close-button:hover, .close-button:focus {
+    color: #0a0a0a; }
+
+.back-button {
+  position: fixed;
+  color: #8a8a8a;
+  left: 1rem;
+  top: 0.5rem;
+  font-size: 1em;
+  line-height: 1;
+  cursor: pointer; }
+  [data-whatinput='mouse'] .back-button {
+    outline: 0; }
+  .back-button:hover, .back-button:focus {
     color: #0a0a0a; }
 
 .menu {
