@@ -151,6 +151,13 @@ figure {
     box-shadow: 2px 5px 40px rgba(0,0,0,0.4);
 }
 
+.reveal-nav {
+	background: #f8f8f8;
+	height: 45px;
+	position: fixed;
+	top:0;
+}
+
 .footer {
 	background: #2b9cb3;
 	margin: 0px auto 0;
