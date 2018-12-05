@@ -488,29 +488,29 @@ DRINK</h3>
 
 <div id="form-messages"></div>
 
-<form action="/submit-email.php" data-abide="" id="contact" method="post" name="contact" novalidate="">
+<form action="/submit-email.php" data-abide="" id="contact" method="post" name="contact" novalidate="" netlify>
 <div class="secondary callout" data-abide-error="" style="display: none;">
 <p>There are some errors in your form.</p>
 </div>
 
 <div class="row">
-<div class="medium-8 large-8 medium-offset-2 large-offset-2 columns"><label class="white">Name</label> <input id="name" name="name" required="" type="text" /> <span class="form-error"> Please enter your name, I hope your Mother gave you a name! </span></div>
+<div class="medium-8 large-8 medium-offset-2 large-offset-2 columns"><label for="name" class="white">Name</label> <input id="name" name="name" required="" type="text" /> <span class="form-error"> Please enter your name, I hope your Mother gave you a name! </span></div>
 </div>
 
 <div class="row">
-<div class="medium-8 large-8 medium-offset-2 large-offset-2 columns"><label class="white">E-mail Address</label> <input id="email" name="email" type="email" required=""/> <span class="form-error"> It&#39;s kind of hard to get back with you if you don&#39;t fill this in </span></div>
+<div class="medium-8 large-8 medium-offset-2 large-offset-2 columns"><label for="email" class="white">E-mail Address</label> <input id="email" name="email" type="email" required=""/> <span class="form-error"> It&#39;s kind of hard to get back with you if you don&#39;t fill this in </span></div>
 </div>
 
 <div class="row">
-<div class="medium-8 large-8 medium-offset-2 large-offset-2 columns"><label class="white">Company</label> <input id="company" name="company" required="" type="text" /> <span class="form-error"> If you aren&#39;t part of a company, org., team, club, cult, etc... then just type in &quot;myself&quot; </span></div>
+<div class="medium-8 large-8 medium-offset-2 large-offset-2 columns"><label for="company" class="white">Company</label> <input id="company" name="company" required="" type="text" /> <span class="form-error"> If you aren&#39;t part of a company, org., team, club, cult, etc... then just type in &quot;myself&quot; </span></div>
 </div>
 
 <div class="row">
-<div class="medium-8 large-8 medium-offset-2 large-offset-2 columns"><label class="white">Best Contact Time</label> <select data-abide-ignore="" id="time" name="time"><option value="9:00a - 11:00a">9:00a - 11:00a</option><option value="11:00a - 1:00p">11:00a - 1:00p</option><option value="1:00p - 4:00p">1:00p - 4:00p</option><option value="4:00p - 7:00p">4:00p - 7:00p</option> </select></div>
+<div class="medium-8 large-8 medium-offset-2 large-offset-2 columns"><label for="time" class="white">Best Contact Time</label> <select data-abide-ignore="" id="time" name="contact-time"><option value="9:00a - 11:00a">9:00a - 11:00a</option><option value="11:00a - 1:00p">11:00a - 1:00p</option><option value="1:00p - 4:00p">1:00p - 4:00p</option><option value="4:00p - 7:00p">4:00p - 7:00p</option> </select></div>
 </div>
 
 <div class="row">
-<div class="medium-8 large-8 medium-offset-2 large-offset-2 columns"><label class="white">Quick description of your needs</label><textarea id="details" name="details" required=""></textarea> <span class="form-error"> This part is a bit important, If you don&#39;t fill this in then our first conversation is going to be awkward! </span></div>
+<div class="medium-8 large-8 medium-offset-2 large-offset-2 columns"><label for="details" class="white">Quick description of your needs</label><textarea id="details" name="details" required=""></textarea> <span class="form-error"> This part is a bit important, If you don&#39;t fill this in then our first conversation is going to be awkward! </span></div>
 </div>
 
 <div class="row">
