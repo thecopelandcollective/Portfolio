@@ -71,6 +71,10 @@ img.centered {
 	display: block;
 }
 
+.full-size {
+	width: 100%;
+}
+
 .breathing-room {
 	padding: 10px 0;
 }
