@@ -147,7 +147,7 @@ figure {
 .portfolio figure:hover img {
 	/*opacity: .3;*/
 	background: rgba(0,0,0,0.4);
-    border-radius: 15% 15px 15px 15px;
+    border-radius: 15px;
     box-shadow: 2px 5px 40px rgba(0,0,0,0.4);
 }
 
